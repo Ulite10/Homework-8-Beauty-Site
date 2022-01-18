@@ -1,0 +1,55 @@
+.card-title {
+    font-family: "Roboto Bold";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 38px;
+}
+
+
+.card {
+    padding: 25px 30px;
+    background-color: #fff;
+    display: inline-block;
+    width: 255px;
+    text-align: center;
+}
+
+.cards div:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card-text {
+    margin: 20px 0px;
+}
+
+.price {
+    font-family: "Roboto Medium";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.card-button {
+    width: 170px;
+    height: 40px;
+    font-family: "Roboto Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    background-color: #F13C6E;
+    cursor: pointer;
+}
+
+.card-button .link {
+    display: block;
+    padding: 9px 20px;
+}
+
+.cards {
+    padding: 80px 0 103px;
+}
