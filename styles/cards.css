@@ -1,3 +1,7 @@
+.cards {
+    padding: 80px 0 100px;
+}
+
 .card-title {
     font-family: "Roboto Bold";
     font-weight: bold;
@@ -5,7 +9,6 @@
     line-height: 28px;
     margin-bottom: 38px;
 }
-
 
 .card {
     padding: 25px 30px;
@@ -17,6 +20,11 @@
 
 .cards div:not(:last-child) {
     margin-right: 30px;
+}
+
+.chair {
+    width: 125px;
+    height: 166px;;
 }
 
 .card-text {
@@ -33,23 +41,71 @@
 }
 
 .card-button {
-    width: 170px;
-    height: 40px;
-    font-family: "Roboto Regular";
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    border: 2px solid #fff;
-    border-radius: 40px;
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
     background-color: #F13C6E;
-    cursor: pointer;
+    padding: 10px 0;
+    color: #fff;
+    margin: 0 auto;
+    border: none;
 }
 
-.card-button .link {
-    display: block;
-    padding: 9px 20px;
+.pink-cards {
+    padding-bottom: 33px;
 }
 
-.cards {
-    padding: 80px 0 103px;
+.pink-card {
+    background-color: #F13C6E;
+    padding: 35px 40px;
+    width: 540px;
+    background-repeat: no-repeat;
+    background-position: 89% 50%;
+}
+
+.title-pink-card {
+    font-family: "Roboto Bold";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.text-pink-card {
+    color: #fff;
+    width: 231px;
+    padding: 25px 0;
+}
+
+.pink-card-left {
+    background-image: url("../images/background_picture_2.svg");
+}
+
+.email {
+    width: 225px;
+    height: 35px;
+    left: 445px;
+    top: 1605px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 9px 0 9px 25px;
+    border: none
+}
+    
+.email::placeholder {
+    color: #C4C4C4;
+}
+
+.pink-card-right {
+    background-image: url("../images/background_picture_3.svg");
+}
+
+.map-button {
+    width: 170px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: #F13C6E;
+    color: #fff;
+    padding: 8px 0;
 }
